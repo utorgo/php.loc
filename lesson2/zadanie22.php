@@ -6,7 +6,7 @@
 </head>
 <body>
 	<form action="/" method="post">
-		<input type="TEXT
+		<input type="TEXT" value="">
 
 	
 	</form>

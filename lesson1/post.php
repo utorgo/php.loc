@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-<form action="/lesson1/test.phptest.php" method="post">
+<form action="/lesson1/test.php" method="post">
     <input type="text" name="comment">
     <input type="submit">
 </form>
