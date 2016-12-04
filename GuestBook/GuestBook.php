@@ -6,7 +6,7 @@
  * Date: 30.11.2016
  * Time: 0:26
  */
-class GuestBook extends TextFile
+class MyGuestBook extends TextFile
 {
     protected $records;
 
