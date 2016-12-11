@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: upt
- * Date: 12/3/16
- * Time: 11:16 PM
- */
 class GuestBook
 {
     protected $file;
@@ -27,4 +21,3 @@ class GuestBook
         return $ret;
     }
 }
-
