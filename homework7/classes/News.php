@@ -1,12 +1,8 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: upt
- * Date: 12/3/16
- * Time: 11:16 PM
- */
-class GuestBook
+require __DIR__.'/Article.php';
+
+class News
 {
     protected $file;
 
@@ -15,16 +11,17 @@ class GuestBook
         $this->file = $file;
     }
 
-    public function getAll()
+    public function getAllNews()
     {
         $data = file($this->file);
         $ret = [];
 
         foreach ($data as $line){
-            $ret[] = new GuestBookRecord($line);
+            $ret[] = new Article($line);
         }
 
         return $ret;
     }
 }
+
 
