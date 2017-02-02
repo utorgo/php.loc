@@ -1,5 +1,6 @@
 <?php
 require __DIR__ . '/GuestBookRecord.php';
+
 class GuestBook
 {
     protected $file;
@@ -21,4 +22,3 @@ class GuestBook
         return $ret;
     }
 }
-
